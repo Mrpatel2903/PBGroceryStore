@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "45953729672",
+    "firebase_url": "https://pbgrocerystore-26f10.firebaseio.com",
+    "project_id": "pbgrocerystore-26f10",
+    "storage_bucket": "pbgrocerystore-26f10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45953729672:android:31f4064f7f8042dcb94b3d",
+        "android_client_info": {
+          "package_name": "com.example.pbgrocerystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45953729672-cgd90frjvpstf4ju24u7jtv6dl2fa55p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYNR1pfCbCr4QoAIVZMkZgCyEIh5EiqeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45953729672-cgd90frjvpstf4ju24u7jtv6dl2fa55p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

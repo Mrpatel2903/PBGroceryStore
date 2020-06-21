@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "931516525492",
+    "firebase_url": "https://pbgrocerystore-b1bc9.firebaseio.com",
+    "project_id": "pbgrocerystore-b1bc9",
+    "storage_bucket": "pbgrocerystore-b1bc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931516525492:android:3773244e33f3a88e8c60e1",
+        "android_client_info": {
+          "package_name": "com.example.pbgrocerystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931516525492-fgd6mi0cjq1st3bj7984itsa8dus3h20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pbgrocerystore",
+            "certificate_hash": "70bfa6b6c106c51c83bfcbabb703aa66897e5f37"
+          }
+        },
+        {
+          "client_id": "931516525492-0jkb4iv8ko8tseouabpts15tm5fkrt1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf0XaXwdLxzeB5QM1vXonNueUq_-sCaxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931516525492-0jkb4iv8ko8tseouabpts15tm5fkrt1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
