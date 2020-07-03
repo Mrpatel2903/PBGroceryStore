@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".ForgetPasswordActivity"></activity>
-        <activity android:name=".RegisterUserAcitivity" />
+        <activity android:name=".RegisterUserActivity" />
         <activity android:name=".RegisterAdminActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">

@@ -8,8 +8,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_margin="50dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_rect1"
         android:id="@+id/loginID">
         <TextView
             android:layout_width="wrap_content"
@@ -17,7 +17,7 @@
             android:layout_centerHorizontal="true"
             android:text="Login"
             android:textStyle="bold"
-            android:textSize="25dp"
+            android:textSize="35dp"
             android:textColor="@color/colorGreen"/>
     </RelativeLayout>
 

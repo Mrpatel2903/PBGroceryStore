@@ -1,9 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterUserAcitivity">
+    tools:context=".RegisterUserActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_rect1"
+        android:id="@+id/registerID">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/backBtn"
+            android:src="@drawable/ic_arrow_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Register"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:textColor="@color/colorGreen"/>
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullNameID"
+        android:layout_below="@+id/registerID"
+        android:hint="Full Name"
+        android:inputType="textPersonName|textCapWords"
+        android:drawableStart="@drawable/ic_mail_pb"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneID"
+        android:layout_below="@+id/fullNameID"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:drawableStart="@drawable/ic_mail_pb"
+        android:layout_margin="5dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/phoneID"
+    android:orientation="horizontal"
+    android:id="@+id/addressID"
+>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityID"
+        android:layout_below="@+id/phoneID"
+        android:hint="City"
+        android:drawableStart="@drawable/ic_mail_pb"
+        android:inputType="textPostalAddress"
+        android:layout_weight="1"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stateID"
+        android:layout_below="@+id/cityID"
+        android:hint="State"
+        android:drawableStart="@drawable/ic_mail_pb"
+        android:inputType="textPostalAddress"
+        android:layout_weight="1"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/countryID"
+        android:layout_below="@+id/stateID"
+        android:hint="Country"
+        android:drawableStart="@drawable/ic_mail_pb"
+        android:inputType="textPostalAddress"
+        android:layout_weight="1"
+        android:layout_margin="5dp"/>
+</LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/completeAddressID"
+        android:layout_below="@+id/addressID"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:drawableStart="@drawable/ic_mail_pb"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailID"
+        android:layout_below="@+id/completeAddressID"
+        android:hint="Email"
+        android:drawableStart="@drawable/ic_mail_pb"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordID"
+        android:layout_below="@+id/emailID"
+        android:hint="Password"
+        android:drawableStart="@drawable/ic_lock_pb"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirmPasswordID"
+        android:layout_below="@+id/passwordID"
+        android:hint="Confirm Password"
+        android:drawableStart="@drawable/ic_lock_pb"
+        android:layout_margin="5dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:minWidth="120dp"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/confirmPasswordID"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NewAccountID"
+        android:layout_margin="5dp"
+        android:text="Not have account? Register"
+        android:layout_below="@id/LoginBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
